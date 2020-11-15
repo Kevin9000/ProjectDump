@@ -3,6 +3,7 @@ Folder that stores all non-relevant project (most of them were exercise at schoo
 
 ## Table of Contents
 * [Technologies](#technologies)  <br />
+* [Subjects](#subjects)  
 * [Installation](#installation)  
 * [Contribution](#contribution)  
 * [Contact](#contact)             
@@ -10,6 +11,13 @@ Folder that stores all non-relevant project (most of them were exercise at schoo
 ## Technologies
 * All sorts of technologies
 * All sorts of languages
+
+## Subjects
+* Cyptography
+* Games
+* XML files
+* Thread
+* Data Structures
 
 ## Installation
 1. Initialize Git <br />
