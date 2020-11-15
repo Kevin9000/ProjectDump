@@ -31,11 +31,12 @@ public class MyMain_WANG
         while(ciclo)
         {
             System.out.println(ANSI_RED+"Scegli una delle seguenti opzioni:"+ANSI_RESET+"\n"
-                    + "1)Input parola da criptata\n"
-                    + "2)Lista parole Criptate\n3)Decriptare una parola data una chiave\n"
-                    + "4)Decriptare una parola senza chiave\n"
-                    + "5)Irruzione Brute Force (data una password o password predefinito)\n"
-                    + "6)Inserire una parola già criptata\n"
+                    + "1)Input parola da criptare\n"
+                    + "2)Inserire una parola già criptata\n"
+                    + "3)Lista parole Criptate\n"
+                    + "4)Decriptare una parola data una chiave (cifrario di Cesare)\n"
+                    + "5)Decriptare una parola senza chiave (cifrario di Cesare)\n"
+                    + "6)Irruzione Brute Force (data una password o password predefinito)\n"
                     + "7)Esci");
             sceltaUtente = scInt.nextInt();
             System.out.println("\n");
@@ -48,10 +49,14 @@ public class MyMain_WANG
                     System.out.println("Risultato Criptatura: "+ParolaCriptata+"\n\n");
                     
                     SerieParoleCriptate.add(new String(ParolaCriptata));
-                    
+                    break;
+                   
+                case 2:
+                    System.out.println("Inserisci la parola criptata");
+                    SerieParoleCriptate.add(new String(scString.nextLine()));
                     break;
                     
-                case 2:
+                case 3:
                     for(int cont = 0; cont < SerieParoleCriptate.size(); cont++)
                     {
                         System.out.println(cont+") "+SerieParoleCriptate.get(cont));
@@ -59,7 +64,7 @@ public class MyMain_WANG
                     System.out.println("");
                     break;
                     
-                case 3:
+                case 4:
                     if(SerieParoleCriptate.size() > 0)
                     {
                         System.out.println("Scegli quale parola De-Criptare");
@@ -86,7 +91,7 @@ public class MyMain_WANG
                         System.out.println("si prega prima di criptare una parola");
                     }
 
-                case 4:
+                case 5:
                     if(SerieParoleCriptate.size() > 0)
                     {
                         System.out.println("Scegli quale parola De-Criptare");
@@ -111,7 +116,7 @@ public class MyMain_WANG
                     }
                     break;
                 
-                case 5:
+                case 6:
                     System.out.println("Scegliere quale password da usare come test per irrompere:\n1) "+passwordCriptate[0]+"\n2) "+passwordCriptate[1]+"\n3) "+passwordCriptate[2]+"\n4)usare una password inserita da tastiera ");
                     sceltaUtente = scInt.nextInt();
                     switch(sceltaUtente)
@@ -147,11 +152,6 @@ public class MyMain_WANG
                             break;
                             
                     }
-                    break;
-                
-                case 6:
-                    System.out.println("Inserisci la parola criptata");
-                    SerieParoleCriptate.add(new String(scString.nextLine()));
                     break;
                 
                 case 7:
