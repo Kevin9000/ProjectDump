@@ -1,5 +1,5 @@
 # ProjectDump
-Folder that stores all non-relevant project (most of them were exercise at school) that has been done during my programming journey
+Folder that stores all non-relevant project (most of them were exercise/projects at school) that has been done during my programming journey as an IT student
 
 ## Table of Contents
 * [Technologies](#technologies)  <br />
