@@ -13,14 +13,14 @@ Folder that stores all non-relevant project (most of them were exercise/projects
 * All sorts of languages
 
 For example: <br />
-- Python <br />
-- Java <br />
-- C <br />
-- Html <br />
-- Css <br />
-- Javascript <br />
-- Bash <br />
-- Jupyter Notebook 
+-Python <br />
+-Java <br />
+-C <br />
+-Html <br />
+-Css <br />
+-Javascript <br />
+-Bash <br />
+-Jupyter Notebook 
 
 ## Subjects
 * Cyptography
