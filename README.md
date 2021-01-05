@@ -11,7 +11,7 @@ Folder that stores all non-relevant project (most of them were exercise/projects
 ## Technologies
 * All sorts of technologies
 * All sorts of languages
-<br />
+
 For example: <br />
 * Python
 * Java
