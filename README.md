@@ -1,8 +1,9 @@
 # ProjectDump
-Folder that stores all non-relevant project (most of them were exercise at school) that has been done during my programming journey
+Folder that stores all non-relevant project (most of them were exercise/projects at school) that has been done during my programming journey as an IT student
 
 ## Table of Contents
 * [Technologies](#technologies)  <br />
+* [Subjects](#subjects)  
 * [Installation](#installation)  
 * [Contribution](#contribution)  
 * [Contact](#contact)             
@@ -10,6 +11,23 @@ Folder that stores all non-relevant project (most of them were exercise at schoo
 ## Technologies
 * All sorts of technologies
 * All sorts of languages
+
+For example: <br />
+-Python <br />
+-Java <br />
+-C <br />
+-Html <br />
+-Css <br />
+-Javascript <br />
+-Bash <br />
+-Jupyter Notebook 
+
+## Subjects
+* Cyptography
+* Games
+* XML files
+* Thread
+* Data Structures
 
 ## Installation
 1. Initialize Git <br />
