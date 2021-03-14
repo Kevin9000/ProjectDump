@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS Libro(
 	prezzo              float(5)			not null   					,
 	annoPubblicazione   date 				not null   					,
 	immagineCopertina   varchar(100)		not null   					,
-	IDeditore			varchar(5)			references Autore(IDautore)
+	IDeditore			int(5)				references Autore(IDautore)
 );
 
 CREATE TABLE IF NOT EXISTS Scrittura(
